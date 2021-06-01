@@ -1,0 +1,18 @@
+to use your react app open your first terminal in the scheduler folder and run this command
+npm start
+then open the second terminal and run the second command in frontend folder
+npm start
+
+
+you'll have your react app ready to use with the login interface
+
+you can consult the existing events by navigating to the events tab
+or you can stay on the same page 
+if you don't have an existing account click the "switch to sign" up button and create a new one 
+go back to the login by clicking "switch to login"
+enter your valid credentials and wait for the authentification button to disappear
+click on events tab on the navbar to see the available events created by other users 
+you can book an event from the existing events or you can create a new one by clicking the create event button
+after creating a new event it'll be marked so you can know which event the current user created
+after booking an event it'll be added to the booking interface where you can see all your bookings 
+and finally you can logout by clicking the logout button in the navbar 
