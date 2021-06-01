@@ -18,7 +18,7 @@ const eventItem = props => (
           <p className="mt-3">{props.price} MAD</p>
           
           {props.userId === props.creatorId ? (
-        <p>Your the owner of this event.</p>
+        <p>You're the owner of this event.</p>
       ) : (
       
         <a href="#" className="text-decoration-none linking text-themecolor mt-2" onClick={props.onDetail.bind(this, props.eventId)}> View Details</a>
